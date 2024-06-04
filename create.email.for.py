@@ -1,0 +1,8 @@
+# Luke Harris Coder -> luke.z.harris@hotmail.com
+first_name = input("Please, enter your first name: ")
+last_name = input("Please, enter your last name: ")
+company_name = input("Please, enter your company name(no blank space): ")
+
+email = f"{first_name}.{last_name}@{company_name}.com".lower()
+
+print(email)
